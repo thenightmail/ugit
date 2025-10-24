@@ -1,69 +1,69 @@
-* ugit: DIY Git in Python
-* cli: Add argument parser
-* init: Create new .ugit directory
-* hash-object: Save object
-* cat-file: Print hashed objects
-* data: Add types to objects
-* Add base module
-* write-tree: List files
-* write-tree: Ignore .ugit files
-* write-tree: Hash the files
-* write-tree: Write tree objects
-* read-tree: Extract tree from object
-* read-tree: Delete all existing stuff before reading
-* commit: Create commit
-* commit: Record hash of last commit on HEAD
-* commit: set parent to HEAD
-* log: Implement
-* log: Add oid parameter
-* checkout: Read tree and move HEAD
-* tag: Implement CLI command
-* tag: Generalize HEAD to refs
-* tag: Create the tag ref
-* tag: Resolve name to oid in argparse
-* base: Try different directories when searching for a ref
-* cli: pass HEAD by default in argparse
-* k: print refs
-* k: Iterate commits and parents
-* k: Render graph
-* log: Use iter_commits_and_parents
-* branch: Create new branch
-* data: Implement symbolic refs idea
-* data: Create RefValue container
-* data: Dereference refs when reading and writing
-* data: Don't always dereference refs (for `ugit k`)
-* data: Write symbolic refs
-* checkout: Switch branches
-* init: Set HEAD to master on init
-* status: Print current branch name
-* branch: Show all branches
-* log: Show refs that point to each commit
-* reset: Move HEAD
-* show: Print commit message
-* show: List changed files in commit
-* show: Print diff of commit
-* diff: Compare working tree to a commit
-* status: Show changed files
-* merge: Create command
-* merge: Merge in working directory
-* merge: Support multiple parents
-* data: Delete refs
-* merge: Record both parents on commit
-* data: Iter over MERGE_HEAD if it exists
-* merge-base: Compute common ancestor of a commit
-* merge: Three-way merge
-* merge: Fast-forward merge
-* data: Allow git directory change
-* fetch: Print remote refs
-* fetch: Retrieve remote refs in a separate function
-* fetch: Download remote ref values
-* fetch: Download missing objects pointed by remote refs
-* push: Naive implementation
-* push: Send only missing objects
-* push: Don't allow force push
-* add: Record added files in the index
-* add: Allow adding a directory
-* write-tree: Write from the index instead of the working directory
-* read-tree: Read into index instead of working directory
-* status: Show staged and non-staged modified files
-* diff: Add --cached option and take index into account
+* DONE ugit: DIY Git in Python
+* DONE cli: Add argument parser
+* DONE init: Create new .ugit directory
+* TODO hash-object: Save object
+* TODO cat-file: Print hashed objects
+* TODO data: Add types to objects
+* TODO Add base module
+* TODO write-tree: List files
+* TODO write-tree: Ignore .ugit files
+* TODO write-tree: Hash the files
+* TODO write-tree: Write tree objects
+* TODO read-tree: Extract tree from object
+* TODO read-tree: Delete all existing stuff before reading
+* TODO commit: Create commit
+* TODO commit: Record hash of last commit on HEAD
+* TODO commit: set parent to HEAD
+* TODO log: Implement
+* TODO log: Add oid parameter
+* TODO checkout: Read tree and move HEAD
+* TODO tag: Implement CLI command
+* TODO tag: Generalize HEAD to refs
+* TODO tag: Create the tag ref
+* TODO tag: Resolve name to oid in argparse
+* TODO base: Try different directories when searching for a ref
+* TODO cli: pass HEAD by default in argparse
+* TODO k: print refs
+* TODO k: Iterate commits and parents
+* TODO k: Render graph
+* TODO log: Use iter_commits_and_parents
+* TODO branch: Create new branch
+* TODO data: Implement symbolic refs idea
+* TODO data: Create RefValue container
+* TODO data: Dereference refs when reading and writing
+* TODO data: Don't always dereference refs (for `ugit k`)
+* TODO data: Write symbolic refs
+* TODO checkout: Switch branches
+* TODO init: Set HEAD to master on init
+* TODO status: Print current branch name
+* TODO branch: Show all branches
+* TODO log: Show refs that point to each commit
+* TODO reset: Move HEAD
+* TODO show: Print commit message
+* TODO show: List changed files in commit
+* TODO show: Print diff of commit
+* TODO diff: Compare working tree to a commit
+* TODO status: Show changed files
+* TODO merge: Create command
+* TODO merge: Merge in working directory
+* TODO merge: Support multiple parents
+* TODO data: Delete refs
+* TODO merge: Record both parents on commit
+* TODO data: Iter over MERGE_HEAD if it exists
+* TODO merge-base: Compute common ancestor of a commit
+* TODO merge: Three-way merge
+* TODO merge: Fast-forward merge
+* TODO data: Allow git directory change
+* TODO fetch: Print remote refs
+* TODO fetch: Retrieve remote refs in a separate function
+* TODO fetch: Download remote ref values
+* TODO fetch: Download missing objects pointed by remote refs
+* TODO push: Naive implementation
+* TODO push: Send only missing objects
+* TODO push: Don't allow force push
+* TODO add: Record added files in the index
+* TODO add: Allow adding a directory
+* TODO write-tree: Write from the index instead of the working directory
+* TODO read-tree: Read into index instead of working directory
+* TODO status: Show staged and non-staged modified files
+* TODO diff: Add --cached option and take index into account
