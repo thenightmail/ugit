@@ -1,10 +1,10 @@
 * DONE ugit: DIY Git in Python
 * DONE cli: Add argument parser
 * DONE init: Create new .ugit directory
-* TODO hash-object: Save object
-* TODO cat-file: Print hashed objects
-* TODO data: Add types to objects
-* TODO Add base module
+* DONE hash-object: Save object
+* DONE cat-file: Print hashed objects
+* DONE data: Add types to objects
+* DONE Add base module
 * TODO write-tree: List files
 * TODO write-tree: Ignore .ugit files
 * TODO write-tree: Hash the files
