@@ -5,10 +5,10 @@
 * DONE cat-file: Print hashed objects
 * DONE data: Add types to objects
 * DONE Add base module
-* TODO write-tree: List files
-* TODO write-tree: Ignore .ugit files
-* TODO write-tree: Hash the files
-* TODO write-tree: Write tree objects
+* DONE write-tree: List files
+* DONE write-tree: Ignore .ugit files
+* DONE write-tree: Hash the files
+* DONE write-tree: Write tree objects
 * TODO read-tree: Extract tree from object
 * TODO read-tree: Delete all existing stuff before reading
 * TODO commit: Create commit
